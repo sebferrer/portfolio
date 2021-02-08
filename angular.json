@@ -33,6 +33,16 @@
             "styles": [
               "src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "./node_modules/@lucca-front/scss/src/components",
+                "./node_modules/@lucca-front/scss/src/mixins",
+                "./node_modules/@lucca-front/scss/src/theming",
+                "./node_modules/@lucca-front/scss/src/utilities",
+                "./node_modules/@lucca-front/scss/src/overrides",
+                "./node_modules/@lucca-front/ng/src/style/overrides"
+              ]
+            },
             "scripts": []
           },
           "configurations": {
