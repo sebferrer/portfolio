@@ -3,6 +3,7 @@ export interface IProjectOverview {
 	name: string;
 	picture: string;
 	headLine: string;
+	technos: string[];
 }
 
 export interface IProject extends IProjectOverview {

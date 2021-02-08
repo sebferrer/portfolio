@@ -3,12 +3,12 @@ import { Routes, RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import { ContactComponent } from './ui/contact';
-import { AppComponent } from './app.component';
+import { HomeComponent } from './ui/home';
 
 const routes: Routes = [
 	{
 		path: '',
-		component: AppComponent
+		component: HomeComponent
 	},
 	{
 		path: 'contact',
