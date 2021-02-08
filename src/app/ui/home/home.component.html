@@ -1,0 +1,20 @@
+<div class="projects-grid">
+    <div *ngFor="let project of projects" class="card tile">
+        <footer class="card-header">
+            <div class="card-header-center">
+                <p>{{ project.name }}</p>
+            </div>
+        </footer>
+        <div class="card-content">
+            <img [src]="project.picture" class="tile-picture" />
+        </div>
+        <footer class="card-footer">
+            <div class="card-footer-center">
+                <p>{{ project.headLine }}</p>
+            </div>
+        </footer>
+    </div>
+</div>
+
+
+

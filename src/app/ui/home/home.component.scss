@@ -1,1 +1,14 @@
-
+.projects-grid {
+    .tile {
+        display: inline-block;
+        width: 24%;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+        .card-content {
+            text-align: center;
+            .tile-picture {
+                width: 60%;
+            }
+        }
+    }
+}
