@@ -35,12 +35,19 @@
             ],
             "stylePreprocessorOptions": {
               "includePaths": [
+                "src/theming",
+                "src/scss",
                 "./node_modules/@lucca-front/scss/src/components",
                 "./node_modules/@lucca-front/scss/src/mixins",
+                "./node_modules/@lucca-front/scss/src/overrides",
                 "./node_modules/@lucca-front/scss/src/theming",
                 "./node_modules/@lucca-front/scss/src/utilities",
-                "./node_modules/@lucca-front/scss/src/overrides",
-                "./node_modules/@lucca-front/ng/src/style/overrides"
+                "./node_modules/@lucca-front/scss/src",
+                "./node_modules/@lucca-front/ng/style/overrides",
+                "./node_modules/@lucca-front/ng/style",
+                "./node_modules/@lucca-front/ng/style/components",
+                "./node_modules/@lucca-front/ng/style/definitions",
+                "./node_modules/@lucca-front/ng/style/theme"
               ]
             },
             "scripts": []

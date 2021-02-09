@@ -1,0 +1,92 @@
+[
+    {
+        "id": "angular",
+        "name": "Angular",
+        "picture": "angular.png"
+    },
+    {
+        "id": "canvas",
+        "name": "Canvas",
+        "picture": "canvas.png"
+    },
+    {
+        "id": "cordova",
+        "name": "Cordova",
+        "picture": "cordova.png"
+    },
+    {
+        "id": "docker",
+        "name": "Docker",
+        "picture": "docker.png"
+    },
+    {
+        "id": "grafana",
+        "name": "Grafana",
+        "picture": "grafana.png"
+    },
+    {
+        "id": "gulp",
+        "name": "Gulp",
+        "picture": "gulp.png"
+    },
+    {
+        "id": "ionic",
+        "name": "Ionic",
+        "picture": "ionic.png"
+    },
+    {
+        "id": "java",
+        "name": "Java",
+        "picture": "java.png"
+    },
+    {
+        "id": "js",
+        "name": "Javascript",
+        "picture": "js.png"
+    },
+    {
+        "id": "k8s",
+        "name": "Kubernetes",
+        "picture": "k8s.png"
+    },
+    {
+        "id": "material",
+        "name": "Material",
+        "picture": "material.png"
+    },
+    {
+        "id": "meow",
+        "name": "Meow",
+        "picture": "meow.png"
+    },
+    {
+        "id": "nginx",
+        "name": "Nginx",
+        "picture": "nginx.png"
+    },
+    {
+        "id": "prometheus",
+        "name": "Prometheus",
+        "picture": "prometheus.png"
+    },
+    {
+        "id": "python",
+        "name": "Python",
+        "picture": "python.png"
+    },
+    {
+        "id": "rxjs",
+        "name": "RxJS",
+        "picture": "rxjs.png"
+    },
+    {
+        "id": "tensorflow",
+        "name": "Tensorflow",
+        "picture": "tensorflow.png"
+    },
+    {
+        "id": "ts",
+        "name": "TypeScript",
+        "picture": "ts.png"
+    }
+]

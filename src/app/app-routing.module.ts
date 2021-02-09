@@ -18,8 +18,6 @@ const routes: Routes = [
 
 @NgModule({
 	imports: [
-		BrowserModule,
-		BrowserAnimationsModule,
 		RouterModule.forRoot(routes,
 			{
 				useHash: true,

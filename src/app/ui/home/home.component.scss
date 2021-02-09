@@ -63,5 +63,14 @@
                 }
             }
         }
+        .card-footer {
+            .techno-logo-container {
+                display: inline-block;
+                margin-left: 0.5rem;
+                .techno-logo {
+                    height: 1.5rem;
+                }
+            }
+        }
     }
 }

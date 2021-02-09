@@ -4,7 +4,13 @@
         "name": "Life notes",
         "headLine": "Life Monitoring - Symptoms Tracking",
         "picture": "life-notes.png",
-        "technos": ["angular", "material", "rxjs", "ionic", "cordova"],
+        "technos": [
+            "angular",
+            "material",
+            "rxjs",
+            "ionic",
+            "cordova"
+        ],
         "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
     },
     {
@@ -12,7 +18,13 @@
         "name": "Curry Chronicles",
         "headLine": "Cooking website",
         "picture": "curry-chronicles.png",
-        "technos": ["angular", "material", "rxjs", "docker", "nginx"],
+        "technos": [
+            "angular",
+            "material",
+            "rxjs",
+            "docker",
+            "nginx"
+        ],
         "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
     },
     {
@@ -20,7 +32,12 @@
         "name": "Time Series Data Collector",
         "headLine": "Time Series Database tool",
         "picture": "tsdc.png",
-        "technos": ["java", "prometheus", "docker", "k8s"],
+        "technos": [
+            "java",
+            "prometheus",
+            "docker",
+            "k8s"
+        ],
         "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
     },
     {
@@ -28,7 +45,13 @@
         "name": "Centralized Monitoring",
         "headLine": "Team dashboard solution",
         "picture": "cmonitoring.png",
-        "technos": ["java", "prometheus", "grafana", "docker", "k8s"],
+        "technos": [
+            "java",
+            "prometheus",
+            "grafana",
+            "docker",
+            "k8s"
+        ],
         "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
     },
     {
@@ -36,7 +59,11 @@
         "name": "Prometheus Metric Tools",
         "headLine": "tools on top of the Prometheus JVM Client",
         "picture": "prometheus-metric-tools.png",
-        "technos": ["java", "docker", "k8s"],
+        "technos": [
+            "java",
+            "docker",
+            "k8s"
+        ],
         "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
     },
     {
@@ -44,7 +71,11 @@
         "name": "Jays",
         "headLine": "Video game draft",
         "picture": "jays.png",
-        "technos": ["ts", "canvas", "gulp"],
+        "technos": [
+            "ts",
+            "canvas",
+            "gulp"
+        ],
         "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
     },
     {
@@ -52,7 +83,14 @@
         "name": "Connect-4 AI",
         "headLine": "Artificial Intelligence for Connect-4",
         "picture": "connect4.png",
-        "technos": ["tensorflow", "python", "docker", "k8s"],
+        "technos": [
+            "tensorflow",
+            "python",
+            "docker",
+            "k8s",
+            "ts",
+            "gulp"
+        ],
         "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
     },
     {
@@ -60,7 +98,9 @@
         "name": "Kimi",
         "headLine": "It's my cat.",
         "picture": "kimi.png",
-        "technos": ["meow"],
+        "technos": [
+            "meow"
+        ],
         "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
     },
     {
@@ -68,7 +108,22 @@
         "name": "Zeldus",
         "headLine": "Like Zelda but no",
         "picture": "zeldus.png",
-        "technos": ["js", "canvas"],
+        "technos": [
+            "js",
+            "canvas"
+        ],
+        "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
+    },
+    {
+        "id": "byonnd",
+        "name": "Byonnd",
+        "headLine": "Build Your Own Neural Network Design",
+        "picture": "byonnd.png",
+        "technos": [
+            "ts",
+            "canvas",
+            "gulp"
+        ],
         "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
     },
     {
@@ -76,7 +131,12 @@
         "name": "Magic Counter",
         "headLine": "Simple board game counter",
         "picture": "magic-counter.png",
-        "technos": ["angular", "material", "ionic", "cordova"],
+        "technos": [
+            "angular",
+            "material",
+            "ionic",
+            "cordova"
+        ],
         "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
     }
 ]

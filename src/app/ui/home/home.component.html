@@ -11,7 +11,9 @@
         </div>
         <footer class="card-footer">
             <div class="card-footer-center">
-                <p>{{ project.headLine }}</p>
+                <span *ngFor="let techno of project.technos" class="techno-logo-container" [luTooltip]="getTechno(techno).name" [luTooltipPosition]="'below'">
+                    <img [src]="getTechno(techno).picture" class="techno-logo" />
+                </span>
             </div>
         </footer>
     </div>
