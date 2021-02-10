@@ -1,10 +1,19 @@
+$mobile-width-breakpoint: 600px;
+$tablet-width-breakpoint: 1000px;
+
 .projects-grid {
     .tile {
         display: inline-block;
         position: relative;
         border-radius: 0;
-        width: 18vw;
-        height: 18vw;
+        @media screen and (min-width: $mobile-width-breakpoint) {
+            width: 18vw;
+            height: 18vw;
+        }
+        @media screen and (max-width: $tablet-width-breakpoint) {
+            width: 94vw;
+            height: 94vw;
+        }
         margin-left: 0.25rem;
         margin-right: 0.25rem;
         .card-content {

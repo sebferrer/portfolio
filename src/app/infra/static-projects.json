@@ -168,7 +168,7 @@
                 "url": "http://sebferrer.fr/connect4"
             }
         ],
-        "description": "The Connect Four game with a dataset generator, playable by humans or AI."
+        "description": "The Connect Four game with a dataset generator, playable by humans or AI. This project was created within the context of the organization of an internal hackathon at Nokia, bringing together 60 people around the theme of machine learning for 2 days."
     },
     {
         "id": "kimi",
@@ -179,7 +179,7 @@
             "meow"
         ],
         "links": [],
-        "description": "This isn't a project. It's my cat. She's the cutest cat ever."
+        "description": "This isn't a project. It's my cat. She's the cutest cat ever. She's never gonna give you up, she's never gonna let you down, she's never gonna run around and desert you."
     },
     {
         "id": "zeldus",
@@ -277,6 +277,6 @@
                 "url": "#"
             }
         ],
-        "description": "Hey."
+        "description": "In order to not let this tile empty, here's some text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
 ]

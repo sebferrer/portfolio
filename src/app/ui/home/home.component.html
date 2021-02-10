@@ -1,6 +1,6 @@
 <div class="projects-grid">
-    <div *ngFor="let project of projects" class="card tile" (click)="openProject(project.id)">
-        <div class="card-content">
+    <div *ngFor="let project of projects" class="card tile">
+        <div class="card-content" (click)="openProject(project.id)">
             <div class="card-content-overlay"></div>
             <div class="card-content-picture">
                 <div class="card-content-text">
