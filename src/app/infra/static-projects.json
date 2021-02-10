@@ -1,7 +1,7 @@
 [
     {
         "id": "lifenotes",
-        "name": "Life notes",
+        "name": "Life Notes",
         "headLine": "Life Monitoring - Symptoms Tracking",
         "picture": "life-notes.png",
         "technos": [
@@ -256,7 +256,7 @@
     },
     {
         "id": "portfolio",
-        "name": "My portfolio",
+        "name": "My Portfolio",
         "headLine": "You're already there",
         "picture": "portfolio.png",
         "technos": [

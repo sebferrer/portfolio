@@ -5,6 +5,8 @@ import { IProjectOverview, IProject } from '../models';
 const PROJECTS: IProject[] = (PROJECTS_JSON as any).default;
 const PROJECTS_IMG_DIR = 'assets/img/projects/';
 const TECHNOS_IMG_DIR = 'assets/img/technos/';
+const KIMI_IMG_DIR = 'assets/img/kimi/';
+const KIMI_NB_PICS = 29;
 
 const DEFAULT_PROJECT = {
 	id: 'default',
@@ -30,7 +32,11 @@ export class ProjectsService {
 
 	public getProjectOverviews(): IProjectOverview[] {
 		return PROJECTS.map(project => {
-			project.picture = PROJECTS_IMG_DIR + project.picture;
+			if (project.id === 'kimi') {
+				project.picture = KIMI_IMG_DIR + Math.floor(Math.random() * (KIMI_NB_PICS) + 1) + '.jpg';
+			} else {
+				project.picture = PROJECTS_IMG_DIR + project.picture;
+			}
 			return project
 		});
 	}
