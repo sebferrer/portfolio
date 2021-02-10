@@ -6,6 +6,7 @@
         "picture": "life-notes.png",
         "technos": [
             "angular",
+            "ts",
             "material",
             "rxjs",
             "ionic",
@@ -20,6 +21,7 @@
         "picture": "curry-chronicles.png",
         "technos": [
             "angular",
+            "ts",
             "material",
             "rxjs",
             "docker",
@@ -133,9 +135,23 @@
         "picture": "magic-counter.png",
         "technos": [
             "angular",
+            "ts",
             "material",
             "ionic",
             "cordova"
+        ],
+        "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
+    },
+    {
+        "id": "portfolio",
+        "name": "My portfolio",
+        "headLine": "You're already there",
+        "picture": "portfolio.png",
+        "technos": [
+            "angular",
+            "ts",
+            "lucca-front",
+            "material"
         ],
         "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
     }

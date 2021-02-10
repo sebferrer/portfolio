@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ProjectsService } from 'src/app/infra';
 import { IProjectOverview, ITechno } from 'src/app/models';
 import * as TECHNOS_JSON from 'src/app/infra/static-technos.json';
+import { LuModal } from '@lucca-front/ng/modal';
+import { ProjectModalComponent } from '../project-modale';
 
 const TECHNOS_IMG_DIR = 'assets/img/technos/';
 const TECHNOS: ITechno[] = (TECHNOS_JSON as any).default;
@@ -18,7 +20,8 @@ export class HomeComponent implements OnInit {
 
 	public test = 'coucou';
 	constructor(
-		private projectsService: ProjectsService
+		private projectsService: ProjectsService,
+		private _modal: LuModal
 	) { }
 
 	public ngOnInit(): void {
@@ -31,5 +34,9 @@ export class HomeComponent implements OnInit {
 
 	public getTechno(technoId: string): ITechno {
 		return this.technos.find(techno => techno.id === technoId) || { id: '', name: '', picture: '' };
+	}
+
+	public openProject(): void {
+		this._modal.open(ProjectModalComponent);
 	}
 }

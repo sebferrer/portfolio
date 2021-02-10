@@ -10,12 +10,16 @@ import { ProjectsService } from './infra';
 import { ContactComponent } from './ui/contact';
 import { HomeComponent } from './ui/home';
 import { OverlayModule } from '@angular/cdk/overlay';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { ProjectModalComponent } from './ui/project-modale';
+import { LuModalModule } from '@lucca-front/ng/modal';
 
 @NgModule({
 	declarations: [
 		AppComponent,
 		HomeComponent,
-		ContactComponent
+		ContactComponent,
+		ProjectModalComponent
 	],
 	imports: [
 		CommonModule,
@@ -24,10 +28,15 @@ import { OverlayModule } from '@angular/cdk/overlay';
 		AppRoutingModule,
 		OverlayModule,
 		LuTooltipModule,
-		LuPopoverModule
+		LuPopoverModule,
+		MatTooltipModule,
+		LuModalModule
 	],
 	providers: [
 		ProjectsService
+	],
+	entryComponents: [
+		ProjectModalComponent
 	],
 	bootstrap: [AppComponent]
 })

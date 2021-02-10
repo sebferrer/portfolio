@@ -1,9 +1,9 @@
 <div class="projects-grid">
-    <div *ngFor="let project of projects" class="card tile">
+    <div *ngFor="let project of projects" class="card tile" (click)="openProject()">
         <div class="card-content">
             <div class="card-content-overlay"></div>
             <div class="card-content-picture">
-                <div class="card-header-center">
+                <div class="card-content-text">
                     <p>{{ project.name }}</p>
                 </div>
                 <img [src]="project.picture" class="tile-picture" />
@@ -11,7 +11,11 @@
         </div>
         <footer class="card-footer">
             <div class="card-footer-center">
-                <span *ngFor="let techno of project.technos" class="techno-logo-container" [luTooltip]="getTechno(techno).name" [luTooltipPosition]="'below'">
+                <!--span *ngFor="let techno of project.technos" class="techno-logo-container" [luTooltip]="getTechno(techno).name" [luTooltipPosition]="'below'">
+                    <img [src]="getTechno(techno).picture" class="techno-logo" />
+                </span-->
+                <span *ngFor="let techno of project.technos" class="techno-logo-container"
+                    [matTooltip]="getTechno(techno).name">
                     <img [src]="getTechno(techno).picture" class="techno-logo" />
                 </span>
             </div>

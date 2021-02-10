@@ -24,7 +24,7 @@
             .card-content-picture {
                 z-index: 5;
                 text-align: center;
-                .card-header-center {
+                .card-content-text {
                     position: absolute;
                     left: 0;
                     z-index: 15;
@@ -54,7 +54,7 @@
                     opacity: 0.7;
                 }
                 .card-content-picture {
-                    .card-header-center {
+                    .card-content-text {
                         visibility: visible;
                         opacity: 1;
                         -ms-transform: translateY(-50%);

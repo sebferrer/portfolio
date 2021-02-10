@@ -88,5 +88,10 @@
         "id": "ts",
         "name": "TypeScript",
         "picture": "ts.png"
+    },
+    {
+        "id": "lucca-front",
+        "name": "lucca-front",
+        "picture": "lucca.png"
     }
 ]
