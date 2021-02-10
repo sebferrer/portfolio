@@ -1,0 +1,18 @@
+<div class="modal-content">
+    <div class="headLine">
+        {{ project.headLine }}
+    </div>
+    <div class="description">
+        {{ project.description }}
+    </div>
+    <div *ngIf="project.links.length > 0" class="links">
+        <div *ngFor="let link of project.links" class="link">
+            <div class="link-logo">
+                <img [src]="urlTypeImgMap.get(link.type)" />
+            </div>
+            <div class="link-url">
+                <a [href]="link.url">{{ link.text }}</a>
+            </div>
+        </div>
+    </div>
+</div>

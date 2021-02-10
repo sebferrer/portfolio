@@ -11,7 +11,7 @@ import { ContactComponent } from './ui/contact';
 import { HomeComponent } from './ui/home';
 import { OverlayModule } from '@angular/cdk/overlay';
 import { MatTooltipModule } from '@angular/material/tooltip';
-import { ProjectModalComponent } from './ui/project-modale';
+import { ProjectModalComponent } from './ui/project-modal';
 import { LuModalModule } from '@lucca-front/ng/modal';
 
 @NgModule({

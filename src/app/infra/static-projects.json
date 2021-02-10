@@ -12,6 +12,18 @@
             "ionic",
             "cordova"
         ],
+        "links": [
+            {
+                "type": "github",
+                "text": "To the GitHub repository",
+                "url": "https://github.com/sebferrer/life-notes"
+            },
+            {
+                "type": "playstore",
+                "text": "To the Play Store",
+                "url": "https://play.google.com/store/apps/details?id=com.sebferrer.life_notes"
+            }
+        ],
         "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
     },
     {
@@ -27,7 +39,19 @@
             "docker",
             "nginx"
         ],
-        "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
+        "links": [
+            {
+                "type": "github",
+                "text": "To the GitHub repository",
+                "url": "https://github.com/curry-chronicles/curry-chronicles.github.io"
+            },
+            {
+                "type": "website",
+                "text": "To the website",
+                "url": "https://curry-chronicles.github.io/"
+            }
+        ],
+        "description": "This is a website that simply aims to bring together the recipes that we know and like to make. If you came here thinking of finding great food, then I'm sorry for you."
     },
     {
         "id": "tsdc",
@@ -40,7 +64,14 @@
             "docker",
             "k8s"
         ],
-        "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
+        "links": [
+            {
+                "type": "github",
+                "text": "To the GitHub repository",
+                "url": "https://github.com/nokia/time-series-data-collector"
+            }
+        ],
+        "description": "Generic time series data collector / exporter. Currently, only Prometheus is available as a data source. It offers the following features: Get time series from a start timestamp to an end point, get the last X seconds of a time series, search for a time series of a finite size anywhere in the past, get time series considering only a start point, export the time series in JSON or CSV files via a shared volume or web services, one of the main advantages of these features is that they don't have any size limit for the time series. If the time series database has its own limit, TSDC will split the queries automatically and reconstruct the whole time series. The solution is containerized."
     },
     {
         "id": "cmonitoring",
@@ -54,7 +85,14 @@
             "docker",
             "k8s"
         ],
-        "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
+        "links": [
+            {
+                "type": "github",
+                "text": "To the GitHub repository",
+                "url": "https://github.com/nokia/centralized-monitoring"
+            }
+        ],
+        "description": "This is an external aggregated dashboard that can provide operation and dev team with a simple view of the health of the various environments and also allow us to better troubleshoot issues and reduce TCO. Every monitored system is clickable so it can be used as bookmarks. This can also be used as a radiator on multiple screen."
     },
     {
         "id": "prometheus-metric-tools",
@@ -66,55 +104,14 @@
             "docker",
             "k8s"
         ],
-        "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
-    },
-    {
-        "id": "jays",
-        "name": "Jays",
-        "headLine": "Video game draft",
-        "picture": "jays.png",
-        "technos": [
-            "ts",
-            "canvas",
-            "gulp"
+        "links": [
+            {
+                "type": "github",
+                "text": "To the GitHub repository",
+                "url": "https://github.com/nokia/prometheus-metric-tools"
+            }
         ],
-        "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
-    },
-    {
-        "id": "connect4",
-        "name": "Connect-4 AI",
-        "headLine": "Artificial Intelligence for Connect-4",
-        "picture": "connect4.png",
-        "technos": [
-            "tensorflow",
-            "python",
-            "docker",
-            "k8s",
-            "ts",
-            "gulp"
-        ],
-        "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
-    },
-    {
-        "id": "kimi",
-        "name": "Kimi",
-        "headLine": "It's my cat.",
-        "picture": "kimi.png",
-        "technos": [
-            "meow"
-        ],
-        "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
-    },
-    {
-        "id": "zeldus",
-        "name": "Zeldus",
-        "headLine": "Like Zelda but no",
-        "picture": "zeldus.png",
-        "technos": [
-            "js",
-            "canvas"
-        ],
-        "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
+        "description": "This is just a set of tools on top of the Prometheus JVM Client. The goal is to simplify the use of the client and add some features. This project is currently focused on the Gauge metric collectors, particularly on the labels."
     },
     {
         "id": "byonnd",
@@ -126,7 +123,110 @@
             "canvas",
             "gulp"
         ],
-        "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
+        "links": [
+            {
+                "type": "github",
+                "text": "To the GitHub repository",
+                "url": "https://github.com/nokia/BYONND"
+            },
+            {
+                "type": "codepen",
+                "text": "To the CodePen live demo",
+                "url": "https://codepen.io/sebferrer/pen/OJNbXdw"
+            }
+        ],
+        "description": "Vanilla Javascript graphic library to design neural networks on HTML5 canvas. This designer can handle 3 types of neural networks: Multilayer Perceptrons (MLP), Convolutional Neural Networks (CNN), Recurrent Neural Network (RNN)."
+    },
+    {
+        "id": "connect4",
+        "name": "Connect-4 AI",
+        "headLine": "Artificial Intelligence for Connect-4",
+        "picture": "connect4.png",
+        "technos": [
+            "tensorflow",
+            "keras",
+            "python",
+            "docker",
+            "k8s",
+            "ts",
+            "gulp"
+        ],
+        "links": [
+            {
+                "type": "github",
+                "text": "To the GitHub repository (web GUI)",
+                "url": "https://github.com/sebferrer/connect-4"
+            },
+            {
+                "type": "github",
+                "text": "To the GitHub repository (AI)",
+                "url": "https://github.com/sebferrer/connect-4-ai"
+            },
+            {
+                "type": "website",
+                "text": "To the live demo",
+                "url": "http://sebferrer.fr/connect4"
+            }
+        ],
+        "description": "The Connect Four game with a dataset generator, playable by humans or AI."
+    },
+    {
+        "id": "kimi",
+        "name": "Kimi",
+        "headLine": "It's my cat.",
+        "picture": "kimi.png",
+        "technos": [
+            "meow"
+        ],
+        "links": [],
+        "description": "This isn't a project. It's my cat. She's the cutest cat ever."
+    },
+    {
+        "id": "zeldus",
+        "name": "Zeldus",
+        "headLine": "Like Zelda but no",
+        "picture": "zeldus.png",
+        "technos": [
+            "js",
+            "canvas"
+        ],
+        "links": [
+            {
+                "type": "github",
+                "text": "To the GitHub repository",
+                "url": "https://github.com/sebferrer/zelda-js"
+            },
+            {
+                "type": "website",
+                "text": "To the game",
+                "url": "http://sebferrer.fr/zeldus/"
+            }
+        ],
+        "description": "I made this thing when I was approximately 4.5 years old. Exceptional lifespan of 4 minutes."
+    },
+    {
+        "id": "jays",
+        "name": "Jays",
+        "headLine": "Video game draft",
+        "picture": "jays.png",
+        "technos": [
+            "ts",
+            "canvas",
+            "gulp"
+        ],
+        "links": [
+            {
+                "type": "github",
+                "text": "To the GitHub repository",
+                "url": "https://github.com/sebferrer/jays"
+            },
+            {
+                "type": "website",
+                "text": "To the game",
+                "url": "http://sebferrer.fr/jays/"
+            }
+        ],
+        "description": "This is the beginning of a video game that we made with the personal challenge to do it 100% from scratch. Way harder and time consuming than we expected, so it's far to be finished, but I'll always love this thing."
     },
     {
         "id": "magic-counter",
@@ -140,7 +240,19 @@
             "ionic",
             "cordova"
         ],
-        "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
+        "links": [
+            {
+                "type": "github",
+                "text": "To the GitHub repository",
+                "url": "https://github.com/sebferrer/magic-counter"
+            },
+            {
+                "type": "playstore",
+                "text": "To the Play Store",
+                "url": "https://play.google.com/store/apps/details?id=com.sebferrer.magiccounter"
+            }
+        ],
+        "description": "I just wanted a life counter to play Magic The Gathering with my friends, and I was tired to see so much apps so simple to do, full of ads. So here's one without ads."
     },
     {
         "id": "portfolio",
@@ -153,6 +265,18 @@
             "lucca-front",
             "material"
         ],
-        "description": "Life Notes is an app that allows you to record your chronic symptoms and lifestyle habits on a daily basis in order to monitor them, but also to potentially highlight some correlations."
+        "links": [
+            {
+                "type": "github",
+                "text": "To the GitHub repository",
+                "url": "https://github.com/sebferrer/portfolio"
+            },
+            {
+                "type": "website",
+                "text": "To the website",
+                "url": "#"
+            }
+        ],
+        "description": "Hey."
     }
 ]

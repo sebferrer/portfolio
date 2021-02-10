@@ -1,3 +1,5 @@
+import { ILink } from './link.model';
+
 export interface IProjectOverview {
 	id: string;
 	name: string;
@@ -7,5 +9,6 @@ export interface IProjectOverview {
 }
 
 export interface IProject extends IProjectOverview {
+	links: ILink[];
 	description: string;
 }

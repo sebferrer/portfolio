@@ -3,10 +3,11 @@ import { ProjectsService } from 'src/app/infra';
 import { IProjectOverview, ITechno } from 'src/app/models';
 import * as TECHNOS_JSON from 'src/app/infra/static-technos.json';
 import { LuModal } from '@lucca-front/ng/modal';
-import { ProjectModalComponent } from '../project-modale';
+import { ProjectModalComponent } from '../project-modal';
 
 const TECHNOS_IMG_DIR = 'assets/img/technos/';
 const TECHNOS: ITechno[] = (TECHNOS_JSON as any).default;
+const DEFAULT_TECHNO = { id: '', name: '', picture: '' };
 
 @Component({
 	selector: 'app-home',
@@ -18,7 +19,6 @@ export class HomeComponent implements OnInit {
 	public projects = new Array<IProjectOverview>();
 	public technos = new Array<ITechno>();
 
-	public test = 'coucou';
 	constructor(
 		private projectsService: ProjectsService,
 		private _modal: LuModal
@@ -33,10 +33,10 @@ export class HomeComponent implements OnInit {
 	}
 
 	public getTechno(technoId: string): ITechno {
-		return this.technos.find(techno => techno.id === technoId) || { id: '', name: '', picture: '' };
+		return this.technos.find(techno => techno.id === technoId) || DEFAULT_TECHNO;
 	}
 
-	public openProject(): void {
-		this._modal.open(ProjectModalComponent);
+	public openProject(projectId: string): void {
+		this._modal.open(ProjectModalComponent, projectId);
 	}
 }

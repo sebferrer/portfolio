@@ -85,6 +85,11 @@
         "picture": "tensorflow.png"
     },
     {
+        "id": "keras",
+        "name": "Keras",
+        "picture": "keras.png"
+    },
+    {
         "id": "ts",
         "name": "TypeScript",
         "picture": "ts.png"

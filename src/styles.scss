@@ -10,6 +10,10 @@ $noCssVar: true;
 	@include generateCSSVarsFromTheme($theme);
 }
 
+body {
+	overflow-y: scroll;
+}
+
 .card-header {
 	align-items: center;
 	border-bottom: 1px solid _component("card.border.color");
@@ -28,6 +32,37 @@ $noCssVar: true;
 	margin-right: auto;
 }
 
-body {
-	overflow-y: scroll;
+.modal-content {
+	width: 38rem;
+
+	.headLine {
+		font-size: 1.1rem;
+		margin-bottom: 1rem;
+	}
+	
+	.links {
+		float: right;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		.link {
+			display: block;
+			position: relative;
+			margin-top: 0.5rem;
+			.link-logo {
+				position: absolute;
+				display: inline-block;
+				margin-right: 1rem;
+				height: 1.4rem;
+				top: 0;
+				img {
+					height: 1.4rem;
+				}
+			}
+			.link-url {
+				height: 100%;
+				margin-left: 2.5rem;
+				display: inline-block;
+			}
+		}
+	}
 }
