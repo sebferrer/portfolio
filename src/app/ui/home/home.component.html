@@ -11,11 +11,12 @@
         </div>
         <footer class="card-footer">
             <div class="card-footer-center">
-                <!--span *ngFor="let techno of project.technos" class="techno-logo-container" [luTooltip]="getTechno(techno).name" [luTooltipPosition]="'below'">
+                <!--span *ngFor="let techno of project.technos" class="techno-logo-container"
+                    [luTooltip]="getTechno(techno).name" [luTooltipPosition]="'below'" [luTooltipEnterDelay]="100" [luTooltipLeaveDelay]="0">
                     <img [src]="getTechno(techno).picture" class="techno-logo" />
                 </span-->
                 <span *ngFor="let techno of project.technos" class="techno-logo-container"
-                    [matTooltip]="getTechno(techno).name">
+                    [matTooltip]="getTechno(techno).name" #tooltip="matTooltip" (click)="tooltip.toggle()">
                     <img [src]="getTechno(techno).picture" class="techno-logo" />
                 </span>
             </div>

@@ -98,5 +98,15 @@
         "id": "lucca-front",
         "name": "lucca-front",
         "picture": "lucca.png"
+    },
+    {
+        "id": "pouchdb",
+        "name": "PouchDB",
+        "picture": "pouchdb.png"
+    },
+    {
+        "id": "nodejs",
+        "name": "Node.js",
+        "picture": "nodejs.png"
     }
 ]

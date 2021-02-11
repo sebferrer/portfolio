@@ -9,6 +9,7 @@
             "ts",
             "material",
             "rxjs",
+            "pouchdb",
             "ionic",
             "cordova"
         ],
@@ -36,6 +37,7 @@
             "ts",
             "material",
             "rxjs",
+            "nodejs",
             "docker",
             "nginx"
         ],
@@ -101,6 +103,7 @@
         "picture": "prometheus-metric-tools.png",
         "technos": [
             "java",
+            "prometheus",
             "docker",
             "k8s"
         ],

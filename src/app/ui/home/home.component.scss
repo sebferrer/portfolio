@@ -52,7 +52,7 @@ $tablet-width-breakpoint: 1000px;
                 }
             }
             .tile-picture {
-                width: 60%;
+                width: 75%;
             }
             &:hover {
                 .card-content-overlay {
@@ -73,6 +73,7 @@ $tablet-width-breakpoint: 1000px;
             }
         }
         .card-footer {
+            width: 100%;
             .techno-logo-container {
                 display: inline-block;
                 margin-left: 0.5rem;
