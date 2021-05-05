@@ -135,7 +135,7 @@
             {
                 "type": "codepen",
                 "text": "To the CodePen live demo",
-                "url": "https://codepen.io/sebferrer/pen/OJNbXdw"
+                "url": "https://codepen.io/sebferrer-the-flexboxer/pen/bGqGVwg"
             }
         ],
         "description": "Vanilla Javascript graphic library to design neural networks on HTML5 canvas. This designer can handle 3 types of neural networks: Multilayer Perceptrons (MLP), Convolutional Neural Networks (CNN), Recurrent Neural Network (RNN)."
